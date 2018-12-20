@@ -1,0 +1,109 @@
+
+			body {
+				background:rgb(50,50,50);
+				font-family: Helvetica Neue, Helvetica, Arial, san-serif; 
+				color: white;
+				margin: 0; 
+				padding: 0;
+				background-image: url("back1.jpg")
+			}
+			
+			img {
+				float: right;
+				margin: 2%;
+			}
+			
+			hx{
+				font-family: Curlz MT,Brush Script MT, Brush Script Std;
+				color: rgb(78, 69, 211);
+				font-size: 500%;
+				margin-left: 10px;
+				opacity: .7;
+				
+			}
+
+			h1 {
+				color: cyan;
+				margin-left: 10px;
+				font-family: Harrington;
+				font-weight: 100;
+				font-size: 400%
+			}
+
+			h2 {
+				font-family: Helvetica, sans-serif;
+				color:blue;
+				opacity: .5;
+				margin-left: 10px;
+				font-weight: 200;
+			}
+			button {
+				background: black;
+				border-collapse: separate;
+				color: white;
+			}
+
+			header { 
+			background: black;
+			padding: 20px;
+			color: cyan;
+			margin-top: 20px;
+			
+			 }
+
+			 section {
+			 	background: white;
+			 	color: gray;
+			 	padding: 30px;
+			 	display: flex;
+			 	flex-direction:row;
+
+			 }
+			 div{
+			 	color: white;
+			 	background: red;
+			 	margin: auto;
+				 width: 100px;
+			
+			 }
+
+			 ul{
+			 	margin: 0;
+			 	padding: 0;
+			 	list-style-type: none;
+			 }
+
+			 li{
+			 	display: inline-block;
+				 margin: 0 20px 0 0;
+				 margin-left: 20px;
+				 font-size: 200%;
+			 }
+
+			 li:hover{
+				 background: orange;
+			 }
+			 footer {
+			 	background: black;
+			 	padding: 10px 20px;
+			 }
+			 section.feature-box {
+				 display: flex;
+				 
+			 }
+
+			 section.feature-box.part1 div {
+				 background: green;
+				 width: 100%;
+				 margin: 2px;
+				 font-size: 150%
+				 
+			 }
+
+			 section.feature-box.part2 div {
+				background: rgb(66, 63, 230);
+				width: 100%;
+				margin: 2px;
+				font-size: 300%;
+				color: rgb(24, 221, 195);
+			}
