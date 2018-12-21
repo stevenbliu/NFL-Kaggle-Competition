@@ -25,6 +25,8 @@
 			nav{
 				font-family: Brush Script MT;
 				font-weight: lighter;
+				color: black;
+				margin: 0 0 0 29%;
 			}
 
 			h1 {
@@ -64,6 +66,7 @@
 			 	flex-direction:row;
 
 			 }
+
 			 div{
 			 	color: white;
 			 	background: red;
@@ -72,13 +75,19 @@
 			
 			 }
 
+			 a{
+				color: white;
+			 }
+
 			 ul{
 			 	margin: 0;
 			 	padding: 0;
-			 	list-style-type: none;
+				 list-style-type: none;
+				 color: black;
 			 }
 
 			 li{
+
 			 	display: inline-block;
 				 margin: 0 20px 0 0;
 				 margin-left: 20px;
