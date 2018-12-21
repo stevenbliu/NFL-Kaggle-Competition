@@ -22,6 +22,11 @@
 				
 			}
 
+			nav{
+				font-family: Brush Script MT;
+				font-weight: lighter;
+			}
+
 			h1 {
 				color: cyan;
 				margin-left: 10px;
@@ -81,7 +86,7 @@
 			 }
 
 			 li:hover{
-				 background: orange;
+				 background: rgb(139, 137, 133);
 			 }
 			 footer {
 			 	background: black;
@@ -93,8 +98,9 @@
 			 }
 
 			 section.feature-box.part1 div {
-				 background: green;
-				 width: 100%;
+				 background: rgba(117, 179, 117, 0.63);
+				 width: 400px;
+				 height:400px;
 				 margin: 2px;
 				 font-size: 150%
 				 
