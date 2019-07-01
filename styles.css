@@ -1,37 +1,41 @@
 
 			body {
 				background:rgb(50,50,50);
-				font-family: Helvetica Neue, Helvetica, Arial, san-serif; 
+				font-family: Helvetica Neue, Helvetica, Arial, san-serif;
 				color: white;
-				margin: 0; 
+				margin: 0;
 				padding: 0;
 				background-image: url("back1.jpg")
 			}
-			
+
 			img {
 				float: right;
 				margin: 2%;
 			}
-			
+
 			hx{
 				font-family: Curlz MT,Brush Script MT, Brush Script Std;
 				color: rgb(78, 69, 211);
 				font-size: 500%;
 				margin-left: 10px;
 				opacity: .7;s
-				
+
 			}
 
 			nav{
 				font-family: Brush Script MT;
 				font-weight: lighter;
+				text-align: center;
 				color: black;
-				margin: 0 0 0 29%;
+			}
+
+			a:link{
+				text-decoration: none;
 			}
 
 			h1 {
 				color: cyan;
-				margin-left: 10px;
+				text-align: : 10px;
 				font-family: Harrington;
 				font-weight: 100;
 				font-size: 400%
@@ -50,12 +54,12 @@
 				color: white;
 			}
 
-			header { 
+			header {
 			background: black;
 			padding: 20px;
 			color: cyan;
 			margin-top: 20px;
-			
+
 			 }
 
 			 section {
@@ -71,8 +75,8 @@
 			 	color: white;
 			 	background: rgb(2, 100, 247);
 			 	margin: auto;
-				
-		
+
+
 			 }
 
 			 .container{
@@ -147,7 +151,7 @@
 			 }
 			 section.feature-box {
 				 display: flex;
-				 
+
 			 }
 
 			 section.feature-box.part1 div {
@@ -156,7 +160,7 @@
 				 height:400px;
 				 margin: 2px;
 				 font-size: 150%
-				 
+
 			 }
 
 			 section.feature-box.part2 div {
