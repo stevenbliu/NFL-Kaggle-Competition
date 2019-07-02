@@ -1,66 +1,77 @@
+			head{
+				color: rgb(0, 102, 204);
+			}
 
-			body {
-				background:rgb(50,50,50);
-				font-family: Helvetica Neue, Helvetica, Arial, san-serif;
+			div{
+				height: 100%;
+				width: 100%;
+			}
+
+			div.intro {
+			 float:left;
+		 	 width: 21%;
+		 	 height: 100px;
+		 }
+
+			div.nav {
+				margin-left: 29%;
+				width: 79%%;
+				height: 120px;
+			}
+
+
+			h1.name{
 				color: white;
-				margin: 0;
-				padding: 0;
-				background-image: url("back1.jpg")
-			}
-
-			img {
-				float: right;
-				margin: 2%;
-			}
-
-			hx{
-				font-family: Curlz MT,Brush Script MT, Brush Script Std;
-				color: rgb(78, 69, 211);
-				font-size: 500%;
+				font-family: 'Apple Chancery', italic;
+				font-style: italic;
+				font-size: 150%;
 				margin-left: 10px;
-				opacity: .7;s
-
+				margin-top: 0px;
+				margin-bottom: 0px;
 			}
 
-			nav{
-				font-family: Brush Script MT;
-				font-weight: lighter;
-				text-align: center;
+			h1.role{
+				font-family: 'Apple Chancery', sans-serif;
+				font-style: italic;
+				color:white;
+				opacity: .7;
+				font-size: 100%;
+				margin-left: 10px;
+				font-weight: 200%;
+				margin-top: 1px;
+			}
+
+			a{
 				color: black;
+			}
+			a:hover{
+				color:white;
 			}
 
 			a:link{
 				text-decoration: none;
+				text-decoration-style: dotted;
 			}
 
-			h1 {
-				color: cyan;
-				text-align: : 10px;
-				font-family: Harrington;
-				font-weight: 100;
-				font-size: 400%
-			}
-
-			h2 {
-				font-family: Helvetica, sans-serif;
-				color:blue;
-				opacity: .5;
-				margin-left: 10px;
-				font-weight: 200;
-			}
 			button {
-				background: black;
+				font-family: 'Muli', sans-serif;
+				margin: 40px;
+				background: white;
 				border-collapse: separate;
-				color: white;
+				color: black;
+				font-size: 18px;
+				border: solid;
+				padding: 2px 15px;
+				border-radius: 18px;
+				border-width:medium;
+				transition: 1s;
 			}
 
-			header {
-			background: black;
-			padding: 20px;
-			color: cyan;
-			margin-top: 20px;
+			button:hover{
+				background-color: black;
+				color: white;
 
-			 }
+			}
 
 			 section {
 			 	background: white;
@@ -71,19 +82,8 @@
 
 			 }
 
-			 div{
-			 	color: white;
-			 	background: rgb(2, 100, 247);
-			 	margin: auto;
-
-
-			 }
-
-			 .container{
-				 position: absolute;
-				 width: 100%;
-				 top: 50%;
-				 text-align: center;
+			 .span{
+				 background:
 			 }
 
 			 .contact-method{
@@ -105,7 +105,7 @@
 				 height: 100%;
 				 font-size: 100px;
 				 line-height: 200px;
-				 background-color: chartreuse;
+				 background-color: black;
 				 z-index: 1;
 				 transition: transform 0.6s;
 			 }
@@ -123,50 +123,102 @@
 				transform:translateY(-40px);
 			}
 
-			 a{
-				color: white;
-			 }
-
-			 ul{
-			 	margin: 0;
-			 	padding: 0;
-				 list-style-type: none;
-				 color: black;
-			 }
-
 			 li{
-
 			 	display: inline-block;
-				 margin: 0 20px 0 0;
 				 margin-left: 20px;
 				 font-size: 200%;
+				 color:red;
 			 }
 
 			 li:hover{
-				 background: rgb(139, 137, 133);
+				 background:white;
 			 }
-			 footer {
-			 	background: black;
-			 	padding: 10px 20px;
-			 }
+
+
 			 section.feature-box {
 				 display: flex;
 
 			 }
 
-			 section.feature-box.part1 div {
-				 background: rgba(117, 179, 117, 0.63);
-				 width: 400px;
-				 height:400px;
-				 margin: 2px;
-				 font-size: 150%
-
+			 body {
+				 background:rgb(50,50,50);
+				 font-family: Helvetica Neue, Helvetica, Arial, san-serif;
+				 color: white;
+				 margin: 0;
+				 padding: 0;
+				 background-image: url("background2.jpg")
 			 }
 
-			 section.feature-box.part2 div {
-				background: rgb(66, 63, 230);
-				width: 100%;
-				margin: 2px;
-				font-size: 300%;
-				color: rgb(24, 221, 195);
-			}
+			 div.first {
+				 float:left;
+				 background-color: none;
+				 width: 48%;
+				 height: 200px;
+				 margin: 1%;
+				 outline-style: groove;
+				 outline-color: black;
+				 outline-width: thick;
+			 }
+
+			 div.second{
+				 float:left;
+				 width: 48%;
+				 height: 90%;
+				 margin: 1%;
+				 outline-style: dashed;
+				 outline-color: black;
+				 outline-width: thick;
+			 }
+
+			 div.footer{
+				 background-color: black;
+				 position: absolute;
+				 left: 0;
+	       bottom: 0;
+		     height: 10%;
+		     width: 100%;
+				 opacity: .5;
+			 }
+
+			 footer{
+				 background-color: black;
+				 position: absolute;
+
+		     height: 5%;
+		     width: 100%;
+				 opacity: .5;
+			 }
+
+			 img.github {
+				 width: 40%;
+				 height: 38%;
+			 }
+
+			 img.linkedin{
+				 width: 30%;
+				 height: 30%:
+			 }
+
+			 li.icon{
+				 margin-top: 0px;
+			 }
+
+			 div.icon1{
+				 float:left;
+				 width: 90%;
+				 height: 90%;
+				 margin: 1%;
+			 }
+
+			 div.icon2{
+				float:left;
+				width: 90%;
+				height: 90%;
+				margin: 1%;
+			 }
+
+			 h3.email{
+				 color:white;
+				 font-weight: 100;
+
+			 }
