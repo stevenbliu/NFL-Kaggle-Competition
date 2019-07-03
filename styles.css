@@ -2,21 +2,26 @@
 				color: rgb(0, 102, 204);
 			}
 
-			div{
-				height: 100%;
-				width: 100%;
+			@-webkit-keyframes move {
+			  0%   {top: 0px;}
+			  25%  {top: 200px;}
+			  75%  {top: 50px}
+			  100% {top: 100px;}
 			}
 
 			div.intro {
 			 float:left;
-		 	 width: 21%;
-		 	 height: 100px;
+		 	 width: 20%;
+		 	 height: 20%;
+			 animation-duration: 2s;
+
 		 }
 
 			div.nav {
-				margin-left: 29%;
-				width: 79%%;
-				height: 120px;
+				float: center;
+				width: 80%;
+				height: 10%;
+				animation: 'animated rollIn' 5s infinite;
 			}
 
 
@@ -42,16 +47,14 @@
 			}
 
 			a{
+				text-decoration: none;
 				color: black;
 			}
 			a:hover{
 				color:white;
 			}
 
-			a:link{
-				text-decoration: none;
-				text-decoration-style: dotted;
-			}
+
 
 			button {
 				font-family: 'Muli', sans-serif;
@@ -73,14 +76,83 @@
 
 			}
 
-			 section {
-			 	background: white;
-			 	color: gray;
-			 	padding: 30px;
-			 	display: flex;
-			 	flex-direction:row;
+
+
+
+			 body {
+				 background:rgb(50,50,50);
+				 font-family: Helvetica Neue, Helvetica, Arial, san-serif;
+				 color: white;
+				 margin: 0;
+				 padding: 0;
+				 background-image: url("background2.jpg")
+			 }
+
+			 div.first {
+				 float:left;
+				 background-color: none;
+				 width: 48%;
+				 height: 200px;
+				 margin: 1%;
+				 outline-style: groove;
+				 outline-color: black;
+				 outline-width: thick;
+			 }
+
+			 div.second{
+				 float:left;
+				 width: 48%;
+				 height: 90%;
+				 margin: 1%;
+				 outline-style: dashed;
+				 outline-color: black;
+				 outline-width: thick;
+			 }
+
+			 footer{
+				 background-color: rgba(1,1,1,.5);
+				 position: absolute;
+				 margin-bottom: 0px;
+				 left: 0;
+				 bottom: 0;
+				 height: 5%;
+				 width: 100%;
+				 text-align: center;
+				 padding: 4px 0px;
 
 			 }
+
+			 div.icons{
+				 height: auto;
+				 margin: auto;
+				 opacity: 1;
+			 }
+
+			 div.icons ul{
+				 margin: 0px;
+				 padding: 0px;
+				 text-align: center;
+			 }
+
+			 div.icons ul li{
+				 display: inline-block;
+				 width: 30px;
+				 height: 30px;
+				 margin: 0% 10%;
+				 opacity: 1;
+			 }
+			 div.icons ul li img{
+				 width:30px;
+				 height: 30px;
+				 opacity: 1;
+			 }
+
+
+
+
+
+
+
 
 			 .span{
 				 background:
@@ -122,103 +194,3 @@
 			.contact-method:hover i{
 				transform:translateY(-40px);
 			}
-
-			 li{
-			 	display: inline-block;
-				 margin-left: 20px;
-				 font-size: 200%;
-				 color:red;
-			 }
-
-			 li:hover{
-				 background:white;
-			 }
-
-
-			 section.feature-box {
-				 display: flex;
-
-			 }
-
-			 body {
-				 background:rgb(50,50,50);
-				 font-family: Helvetica Neue, Helvetica, Arial, san-serif;
-				 color: white;
-				 margin: 0;
-				 padding: 0;
-				 background-image: url("background2.jpg")
-			 }
-
-			 div.first {
-				 float:left;
-				 background-color: none;
-				 width: 48%;
-				 height: 200px;
-				 margin: 1%;
-				 outline-style: groove;
-				 outline-color: black;
-				 outline-width: thick;
-			 }
-
-			 div.second{
-				 float:left;
-				 width: 48%;
-				 height: 90%;
-				 margin: 1%;
-				 outline-style: dashed;
-				 outline-color: black;
-				 outline-width: thick;
-			 }
-
-			 div.footer{
-				 background-color: black;
-				 position: absolute;
-				 left: 0;
-	       bottom: 0;
-		     height: 10%;
-		     width: 100%;
-				 opacity: .5;
-			 }
-
-			 footer{
-				 background-color: black;
-				 position: absolute;
-
-		     height: 5%;
-		     width: 100%;
-				 opacity: .5;
-			 }
-
-			 img.github {
-				 width: 40%;
-				 height: 38%;
-			 }
-
-			 img.linkedin{
-				 width: 30%;
-				 height: 30%:
-			 }
-
-			 li.icon{
-				 margin-top: 0px;
-			 }
-
-			 div.icon1{
-				 float:left;
-				 width: 90%;
-				 height: 90%;
-				 margin: 1%;
-			 }
-
-			 div.icon2{
-				float:left;
-				width: 90%;
-				height: 90%;
-				margin: 1%;
-			 }
-
-			 h3.email{
-				 color:white;
-				 font-weight: 100;
-
-			 }
