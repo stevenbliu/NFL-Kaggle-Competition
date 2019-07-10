@@ -10,18 +10,32 @@
 			}
 
 			div.intro {
+			margin-top: 3%;
 			 float:left;
-		 	 width: 20%;
-		 	 height: 20%;
+		 	 width: 25%;
+		 	 height: 40%;
 			 animation-duration: 2s;
-
+			 outline-style: dashed;
+			 outline-color: black;
+			 text-align: center;
 		 }
 
 			div.nav {
-				float: center;
-				width: 80%;
-				height: 10%;
+				float: left;
+				text-align: center;
+				width: 50%;
+				height: 20%;
 				animation: 'animated rollIn' 5s infinite;
+				outline-style: dashed;
+				outline-color: black;
+			}
+
+			div.extra{
+			 	 width: 25%;
+			 	 height: 20%;
+				 animation-duration: 2s;
+				 outline-style: dashed;
+				 outline-color: black;
 			}
 
 
@@ -29,7 +43,7 @@
 				color: white;
 				font-family: 'Apple Chancery', italic;
 				font-style: italic;
-				font-size: 150%;
+				font-size: 300%;
 				margin-left: 10px;
 				margin-top: 0px;
 				margin-bottom: 0px;
@@ -50,10 +64,10 @@
 				text-decoration: none;
 				color: black;
 			}
+
 			a:hover{
 				color:white;
 			}
-
 
 
 			button {
@@ -73,11 +87,7 @@
 			button:hover{
 				background-color: black;
 				color: white;
-
 			}
-
-
-
 
 			 body {
 				 background:rgb(50,50,50);
@@ -85,7 +95,13 @@
 				 color: white;
 				 margin: 0;
 				 padding: 0;
+				 height: 110%;
 				 background-image: url("background2.jpg")
+			 }
+
+			 div.row{
+				 outline-style: dashed;
+				 outline-color: blue;
 			 }
 
 			 div.first {
@@ -102,11 +118,16 @@
 			 div.second{
 				 float:left;
 				 width: 48%;
-				 height: 90%;
+				 height: 300%;
 				 margin: 1%;
 				 outline-style: dashed;
 				 outline-color: black;
 				 outline-width: thick;
+			 }
+
+			 div.projects{
+				 outline-style: solid;
+				 display:block;
 			 }
 
 			 footer{
