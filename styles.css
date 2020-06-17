@@ -2,6 +2,10 @@ html, body {
 	height: 97.9%;
 	margin: .5%;
 	background-color: white;
+	background-image: url("w1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 #left {
@@ -46,16 +50,17 @@ A:hover {
 }
 
 #left {
-	background-color:#b8b6b6de;
+	background-color:#d3d3d3;
 	align-items: center;
 	align-content: center;
+	opacity: .8;
 }
 
 .position{
 	margin:20px 0;
 	text-align: center;
 	font-weight: 100;
-	color: #80ffe1;
+	color: #1b856cea;
 }
 
 li, h1 {
@@ -97,6 +102,7 @@ li {
   margin: 4px 2px;
   cursor: pointer;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: .9;
 }
 
 .button1 {background-color: #4CAF50;} 
@@ -107,7 +113,7 @@ li {
 .button6 {background-color: rgb(0, 2, 128);} 
 
 p a:visited {
-	color: #4CAF50;
+	color: #18641a;
 }
 
 p a:hover {
