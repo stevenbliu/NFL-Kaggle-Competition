@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>DSC106 - HW4 ZingCharts Demo</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Paytone+One&display=swap" rel="stylesheet" />
+	<link href="./styles/dashboard.css" rel="stylesheet" />
+	<script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+
+	<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+	<script src="https://code.highcharts.com/mapdata/custom/world-continents.js"></script>
+
+</head>
+
+<body>
+	<h1><img src="./images/dw-logo.png" alt="Dingus & Widget" height="50" width="150" />Global Dashboard</h1>
+
+	<section>
+		<div id="hMap"> </div>
+	</section>
+
+	<section id="vitalScorecards">
+		<section id="dingusScorecard">
+			<h3>Dingus</h3>
+			<output id="dingusSold"> </output>
+		</section>
+
+		<section id="widgetScorecard">
+			<h3>Widget</h3>
+			<output id="widgetSold"> </output>
+		</section>
+
+		<section id="salesScorecard">
+			<h3>Sales</h3>
+			<output id="totalSales"> </output>
+		</section>
+	</section>
+
+	<hr />
+
+	<section id="summary" class="chart-parent--container">
+		<section id="hCol" class="chart--container"></section>
+		<section id="hPie" class="chart--container"></section>
+	</section>
+
+	<hr />
+
+	<section id="hStock"></section>
+
+	<script src="./scripts/main.js"></script>
+
+
+</body>
+
+</html>
