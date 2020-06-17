@@ -46,7 +46,7 @@ A:hover {
 }
 
 #left {
-	background-color:#636363;
+	background-color:#b8b6b6de;
 	align-items: center;
 	align-content: center;
 }
@@ -104,3 +104,12 @@ li {
 .button3 {background-color: red;} 
 .button4 {background-color: orange;} 
 .button5 {background-color: purple;} 
+.button6 {background-color: rgb(0, 2, 128);} 
+
+p a:visited {
+	color: #4CAF50;
+}
+
+p a:hover {
+	color: teal;
+}
