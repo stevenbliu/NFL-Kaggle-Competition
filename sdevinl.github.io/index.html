@@ -1,0 +1,123 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Welcome to Steven's Portfolio!</title>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/golden.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Thasadith' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Wire One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+<body>
+    <div id="left">
+        <div id="logo"></div>
+
+        <div id="intro">
+            <h1>Steven B Liu</h1>
+            <h4 class="position"> Data Scientist</h4>
+        </div>
+
+        <div id='about'>
+            <p>
+                Welcome to my website! <br>
+                I graduated from University of California, San Diego with a B.S. in Data Science. Here's a collection of some of the things I've worked on. <br>
+                If you're interested, you can find more in my <a href='https://github.com/sdevinl'> repositories.</a>
+            </p>
+        </div>
+
+        <div id="contact">
+
+             <!--  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="mailto:steventheliu@gmail.com"><i class="fa fa-google"></i></a> -->
+            <a href="https://www.linkedin.com/in/stevenliu97/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/sdevinl" class="github"><i class="fa fa-github-alt"></i></a>
+
+        </div>
+    </div>
+
+    <div id="middle">
+        <iframe id="pdf" src="Resume 2021.pdf#zoom=80" width=100% height=100%> </iframe>
+    </div>
+
+    <div id="right">
+        <div id='projects'>
+            <nav>
+                <li id="projects_title"> Some Projects:</li>
+
+                <ul>
+
+                    <button onclick="showPdf('Resume 2021.pdf')">
+                        <li>
+                            Resume
+                            <span></span><span></span><span></span><span></span>
+                        </li>
+                    </button>
+
+                    <button onclick="showPdf('dsc190a_final.html')">
+                        <li>
+                            League of Legends: <br>
+                            Do you FF?
+                            <span></span><span></span><span></span><span></span>
+                        </li>
+                    </button>
+
+                    <button onclick="showPdf('https://www.youtube.com/embed/Rrb24VDzDgg')">
+                        <li>
+                            ESP32 Devices Analysis (Demo)
+                            <span></span><span></span><span></span><span></span>
+                        </li>
+                    </button>
+
+                    <button onclick="showPdf('https://www.youtube.com/embed/pjeLmTMKSYI')">
+                        <li>
+                            MangaScraper (Demo)
+                            <span></span><span></span><span></span><span></span>
+                        </li>
+                    </button>
+
+                    <button onclick="showPdf('AirBnB Challenge.html')">
+                        <li>
+                            AirBnB Kaggle Challenge
+                            <span></span><span></span><span></span><span></span>
+                        </li>
+                    </button>
+
+                    <button onclick="showPdf('globalDashboard.html')">
+                        <li>
+                            Global Dashboard
+                            <span></span><span></span><span></span><span></span>
+                        </li>
+                    </button>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        // To add a pdf: just create a button that calls this function, with the pdf stirng.
+        function showPdf(string) {
+            console.log('Worked');
+            document.getElementById("pdf").src = string;
+        }
+    </script>
+
+
+</body>
+
+</html>

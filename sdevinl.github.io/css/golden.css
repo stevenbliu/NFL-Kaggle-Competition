@@ -1,0 +1,91 @@
+
+button {
+    border: none;
+    padding: 0 0 0 0;
+    height: 100%;
+    width: 100%;
+    background: none;
+    --c: black;
+    color: var(--c);
+    text-align: center;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 0;
+    opacity: 1;
+  }
+
+
+
+
+nav ul li {
+    --c: black;
+    color: var(--c);
+    border: 0.2em solid var(--c);
+    height: 100%;
+    width: 75%;
+    text-align: center;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+nav ul li button:hover {
+    color: teal;
+}
+
+nav ul li:hover {
+    color: teal;
+}
+
+nav ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 10%;
+    left: calc((var(--n) - 1) * 25%);
+    
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+
+    z-index: -1;
+}
+
+nav ul li:hover span {
+    transform: translateY(0) scale(5);
+}
+
+nav ul li span:nth-child(1) {
+    --n: 1;
+}
+
+nav ul li span:nth-child(2) {
+    --n: 2;
+}
+
+nav ul li span:nth-child(3) {
+    --n: 3;
+}
+
+nav ul li span:nth-child(4) {
+    --n: 4;
+}
+
+nav ul li span:nth-child(5) {
+    --n: 5;
+}
